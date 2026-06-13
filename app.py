@@ -35,13 +35,8 @@ DEFAULT_VISIBILITY = {
     "Investor": ["name", "title", "company", "email", "linkedin"],
     "Startup": ["name", "title", "company", "email", "website", "pitch"],
     "Supplier": ["name", "title", "company", "email", "phone"],
-    "Other": ["name", "company", "email"],
-}
+    "Other": ["name", "company", "email"],}
 
-
-# ---------------------------------------------------------------------------
-# Database helpers
-# ---------------------------------------------------------------------------
 def get_conn():
     return sqlite3.connect(DB_PATH)
 
