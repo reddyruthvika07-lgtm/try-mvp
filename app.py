@@ -192,7 +192,7 @@ def make_qr_image_bytes(payload: dict) -> bytes:
 init_db()
 
 st.set_page_config(page_title="Networking Contact Scanner", page_icon="\U0001F4F1", layout="wide")
-st.title("Networking Contact Scanner")
+st.title("SmarNet")
 st.caption(
     "Build a dynamic profile, scan contacts with event context, "
     "and explore your network with smart filters and analytics."
